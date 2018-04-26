@@ -42,8 +42,9 @@ features = ["server"]
 optional = true
 
 [dependencies.cookie]
-git = "https://github.com/alexcrichton/cookie-rs"
-rev = "0365a18"
+#git = "https://github.com/alexcrichton/cookie-rs"
+#rev = "0365a18"
+path = "../../cookie-rs"
 features = ["percent-encode", "secure"]
 
 [dev-dependencies]
